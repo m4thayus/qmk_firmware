@@ -42,3 +42,5 @@
 
 // Layer Tapping Toggle Config
 #define TAPPING_TOGGLE 3
+
+#define USB_MAX_POWER_CONSUMPTION 50
