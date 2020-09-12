@@ -11,7 +11,10 @@
  | Fn   | Ctrl |  GUI | Alt  | Lower|    Space    |Raise | Left | Down |  Up  |Right |
  `-----------------------------------------------------------------------------------'
 ```
+## Compile
+ - Execute `qmk compile -kb planck/rev6 -km seong`
 
 ## Flash
  - Put planck into RESET mode with `LOWER+RAISE+q`
- - Execute `CFLAGS="-Wno-error=deprecated" make planck/rev6:seong:dfu-util` on the cmd line
+ - Execute `qmk flash -kb planck/rev6 -km seong`
+ - ~Execute `CFLAGS="-Wno-error=deprecated" make planck/rev6:seong:dfu-util` on the cmd line~
