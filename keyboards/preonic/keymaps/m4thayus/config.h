@@ -35,3 +35,12 @@
 
 /* override number of MIDI tone keycodes (each octave adds 12 keycodes and allocates 12 bytes) */
 //#define MIDI_TONE_KEYCODE_OCTAVES 2
+
+// Tap Dance Config
+#define TAPPING_TERM 200
+
+// Layer Tapping Toggle Config
+#define TAPPING_TOGGLE 3
+
+// For use on mobile
+#define USB_MAX_POWER_CONSUMPTION 50
